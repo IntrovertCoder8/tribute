@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: bisque;
+}
+
+.profile {
+    width: 50%;
+    margin: 25px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px double #041C32;
+    border-radius: 15px;
+}
+
+.profile h2, h3, h4 {
+    color: #2D4263;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-size: larger;
+}
+
+.profile img {
+    width: 100%;
+}
+
+
+.detail {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.detail ul {
+    list-style-type: square;
+}
+
+.detail ul li {
+    padding: 5px;
+}
+
+.more {
+    font-family: monospace;
+    text-align: center;
+    font-size: larger;
+    margin: 10px;
+}
+
+.more a {
+    text-decoration: none;
+}
